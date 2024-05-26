@@ -36,13 +36,13 @@ if (isset($_POST['submit'])) {
     if ($result) {
         // Jika berhasil, redirect ke halaman dengan pesan sukses
         echo "<script>
-               alert('Data berhasil ditambah');
+               alert('Data berhasil Di Sunting');
                window.location.href='../peminjaman';
               </script>";
     } else {
         // Jika gagal, redirect ke halaman dengan pesan gagal
         "<script>
-        alert('Data gagal ditambah');
+        alert('Data gagal Di Sunting');
         window.location.href='../peminjaman/edit.php';
       </script>";
     }
